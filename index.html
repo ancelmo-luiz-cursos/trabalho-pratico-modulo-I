@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h1>Desafio Módulo I</h1>
+        </div>
+      </div>
+      <form>
+        <div class="row">
+          <div class="col s12">
+            <label>Escolha um número entre 0 e 999</label>
+            <p class="range-field">
+              <input type="range" id="numeros" value="0" min="0" max="999" />
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s6">
+            <label>Número Atual</label>
+            <input type="text" id="numero" disabled class="validate" />
+          </div>
+          <div class="col s6">
+            <label>Número por extenso</label>
+            <input type="text" id="numeroExtenso" disabled class="validate" />
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
